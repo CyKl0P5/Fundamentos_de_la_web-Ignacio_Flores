@@ -1,5 +1,6 @@
 # fundamentos_de_la_web-ignacio_flores
 
+Martes 31/05/2022
 ¿Que es una solicitud y una respuesta?
 // el ciclo de solicitud y respuesta es cuando un cliente desea acceder a una página web (puede ser google o whatsapp web), se descarga una copia de la página desde el servidor al pc del cliente para que se muestre en su navegador web//
 
