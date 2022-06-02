@@ -9,3 +9,5 @@ Martes 31/05/2022
 
 Jueves 02/06/2022
 Hoy se trabajara con los fundamentos de HTML de forma mas profunda
+
+Se crearon tablas usando comandos como <table>,<th>,<td>,etc 
