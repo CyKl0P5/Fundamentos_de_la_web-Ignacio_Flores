@@ -6,3 +6,6 @@ Martes 31/05/2022
 
 ¿Cómo funciona el internet?
 //el servidor al que intentamos llegar responde con algún tipo de contenido, como resultados de búsquedas,el perfil de alguien,videos,etc. En todos estos casos el contenido se proporciona al cliente como combinación de HTML,CSS y JavaScript//
+
+Jueves 02/06/2022
+Hoy se trabajara con los fundamentos de HTML de forma mas profunda
