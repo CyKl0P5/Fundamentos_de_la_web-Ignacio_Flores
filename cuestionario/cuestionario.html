@@ -1,44 +1,50 @@
+<h1>Formulario De Registro</h1>
 <!--Partes para introducir datos personales-->
-<p>First Name</p>
-<input type="text" name="first_name">
-<p>Last Name</p>
-<input type="text" name="last_name">
-<p>Age</p>
-<input type="number" name="age">
-<p>Birthday Date</p>
-<input type="date" name="date">
+<div>
+    <p>First Name</p>
+    <input type="text" name="first_name">
+    <p>Last Name</p>
+    <input type="text" name="last_name">
+    <p>Email Address</p>
+    <input type="number" name="email">
+    <p>Password</p>
+    <input type="password" name="password">
+    <p>Confirm Password</p>
+    <input type="password" name="confirm_password">
+</div>
 <!--Partes para introducir datos personales-->
 
-<!--Contraseña-->
-<p>Password</p>
-<input type="password" name="password">
-<!--Contraseña-->
+<!--Age & more-->
+<div>
+    <p>Birthday Date</p>
+    <input type="date" name="date">
 
-<!--Estilo de letra-->
-<p>color</p>
-<input type="color" name="color">
-<input type="radio" name="font" value="bold" id="bold">
-<label for="bold"><strong>black_font</strong></label>
-<input type="radio" name="font" value="normal" id="normal">
-<label for="normal">Normal</label>
-<!--Estilo de letra-->
+    <p>Identidad De Genero:</p>
+    <input type="radio" name="masculino" value="masculino" id="masculino">
+    <label for="masculino">masculino</label>
 
-<!--Seleccion de letra-->
-<input type="checkbox" name="accept" id="accept">
-<label for="accept">I agree</label>
-<!--Seleccion de letra-->
+    <input type="radio" name="femenino" value="femenino" id="femenino">
+    <label for="femenino">femenino</label>
+
+    <input type="radio" name="no-binario" value="no-binario" id="no-binario">
+    <label for="no-binario">no-binario</label>
+</div>
+<!--Age & more-->
 
 <!--Recuadro de escritura para el texto-->
-<p>Text Box</p>
-<textarea name="comment" cols="20" rows="3"></textarea>
+<div>
+    <p>Una Pequeña Descripción Tuya:</p>
+    <textarea name="comment" cols="20" rows="3"></textarea>
+</div>
 <!--Recuadro de escritura para el texto-->
 
-<!--Lista para elejir snacks-->
-<p>Select an snack:</p>
-<select name="snack">
-    <option>Cereal Bar</option>
-    <option>Cookies</option>
-    <option>Almonds</option>
-    <option>Blueberries</option>
-</select>
-<!--Lista para elejir snacks-->
+<!--Language Fav-->
+<div>
+    <p>Lenguaje favorito:</p>
+    <select name="fav-l">
+        <option value="Javascript"></option>
+        <option value="Python"></option>
+        <option value="C#"></option>
+    </select>
+</div>
+<!--Language fav-->
