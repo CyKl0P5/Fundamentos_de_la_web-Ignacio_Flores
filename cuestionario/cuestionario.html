@@ -1,50 +1,65 @@
-<h1>Formulario De Registro</h1>
-<!--Partes para introducir datos personales-->
-<div>
-    <p>First Name</p>
-    <input type="text" name="first_name">
-    <p>Last Name</p>
-    <input type="text" name="last_name">
-    <p>Email Address</p>
-    <input type="number" name="email">
-    <p>Password</p>
-    <input type="password" name="password">
-    <p>Confirm Password</p>
-    <input type="password" name="confirm_password">
-</div>
-<!--Partes para introducir datos personales-->
-
-<!--Age & more-->
-<div>
-    <p>Birthday Date</p>
-    <input type="date" name="date">
-
-    <p>Identidad De Genero:</p>
-    <input type="radio" name="masculino" value="masculino" id="masculino">
-    <label for="masculino">masculino</label>
-
-    <input type="radio" name="femenino" value="femenino" id="femenino">
-    <label for="femenino">femenino</label>
-
-    <input type="radio" name="no-binario" value="no-binario" id="no-binario">
-    <label for="no-binario">no-binario</label>
-</div>
-<!--Age & more-->
-
-<!--Recuadro de escritura para el texto-->
-<div>
-    <p>Una Pequeña Descripción Tuya:</p>
-    <textarea name="comment" cols="20" rows="3"></textarea>
-</div>
-<!--Recuadro de escritura para el texto-->
-
-<!--Language Fav-->
-<div>
-    <p>Lenguaje favorito:</p>
-    <select name="fav-l">
-        <option value="Javascript"></option>
-        <option value="Python"></option>
-        <option value="C#"></option>
-    </select>
-</div>
-<!--Language fav-->
+<!DOCTYPE html>
+<html>
+    <h1>REGISTRO FROM</h1>
+    <form action="/process" method="post">
+        <div>
+            <label>Nombre: </label>
+            <input type="text" name="name" 
+            placeholder="Tu nombre..." >
+        </div>
+        <div>
+            <label>Apellido: </label>
+            <input type="text" name="last name" 
+            placeholder="Tu apellido..." >
+        </div>
+        <div>
+            <label>Gmail: </label>
+            <input type="text" name="gmail" 
+            placeholder="Gmail..." >
+        </div>
+        <div>
+            <label>Contraseña: </label>
+            <input type="text" name="password" 
+            placeholder="Tu contraseña..." >
+        </div>
+        <div>
+            <label>Confirmar contraseña: </label>
+            <input type="text" name="confirm password" 
+            placeholder="Confirma tu contraseña..." >
+        </div>
+        <div>
+            <label>Fecha de Nacimiento: </label>
+            <input type="date" name="dob">
+        </div>
+        <div>
+            <label>Género: </label>
+            <input type="radio" name="font" value="bold" id="bold">
+            <label for="Masculino">Masculino</label>
+            <input type="radio" name="font" value="normal" id="normal">
+            <label for="femenino">Femenino</label>
+        </div>
+        <div>
+            <label>Una breve descripción sobre ti</label>
+            <textarea name="comment" cols="100" rows="3"></textarea>
+        </div>
+        <div>
+            <label>Lenguaje de Programación favorito: </label>
+            <select name="lenguajes">
+                <option>JavaScript</option>
+                <option>Python</option>
+                <option>PHP</option>
+                <option>SQL</option>
+                <option>Ruby</option>
+                <option>Rust</option>
+                <option>Go</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="offers" 
+            id="offers" checked >
+            <label for="offers">Me gustaría 
+            recibir ofertas por correo!</label>
+        </div>
+        <input type="submit" value="Crear Cuenta">
+    </form>
+</html>
