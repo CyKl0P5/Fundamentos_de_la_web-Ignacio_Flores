@@ -1,5 +1,5 @@
-#fondo {
-    background-image: url("fondo-web-gris-3-01.jpg");
-    width: 1000px;
-    height: 900px;
+body {
+    height: 665px;
+    background-color: rgb(0, 255, 132);
+    background-size: 10rem;
 }
