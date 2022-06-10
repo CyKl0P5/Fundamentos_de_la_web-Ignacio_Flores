@@ -55,9 +55,9 @@ Aca estan varias de las etiquetas y codigos que agregue a mi portafolio:
 
 - Heigth: Altura del area de contenido.
 
-- Width: Anchura del area de contenido.
-
 - Table: Forma de organizar datos, se organizan con un formato de filas y columnas.
+
+- Width: Anchura del area de contenido.
 
 - Tr: Se usa para definir una fila de celdas en una tabla.
 
@@ -65,9 +65,9 @@ Aca estan varias de las etiquetas y codigos que agregue a mi portafolio:
 
 - P: Etiqueta que atribuye a un parrafo.
 
-- Strong: Elemento usado para marcar como con un enfasis a las partes mas importantes de un texto.
-
 - Href: Atributo que se utiliza para hacer referencia a otro documento, con etiquetas de un enlace.
+
+- Strong: Elemento usado para marcar como con un enfasis a las partes mas importantes de un texto.
 
 - Label: Etiqueta para un elemento en la interfaz del usuario.
 
