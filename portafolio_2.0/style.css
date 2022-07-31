@@ -37,6 +37,22 @@
 
 
 
+/*Texts*/
+
+.h1c{
+    text-shadow: 3px 2px 0 #333,1px -1px 0 #333,-1px 1px 0 #333, -1px -1px 0 #333;
+    color: aliceblue;
+    position: absolute;
+    left: 627px;
+    top: 155px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
 
 /*Lines*/
 .hr {
