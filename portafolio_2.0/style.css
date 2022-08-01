@@ -134,6 +134,7 @@
     height: 70px;
     background-color: rgb(139, 188, 252);
     border-bottom: 3px solid darkblue;
+    padding: 0;
 }
 
 .dw {
