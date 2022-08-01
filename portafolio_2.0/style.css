@@ -125,6 +125,15 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.h3a{
+    text-shadow: 3px 2px 0 #333,1px -1px 0 #333,-1px 1px 0 #333, -1px -1px 0 #333;
+    color: rgb(70, 153, 226);
+    font-size: 22px;
+    position: absolute;
+    left: 156px;
+    top: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 
 
