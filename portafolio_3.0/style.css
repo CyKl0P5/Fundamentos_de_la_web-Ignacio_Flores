@@ -19,8 +19,7 @@
     height: 190px;
     left: 635px;
     top: 10px;
-    padding: 1px;
-    border: 4px solid #8E9B90;
+    border: 4px solid black;
 }
 
 /*Buttons*/
@@ -40,6 +39,21 @@
     color: #8E9B90;
 }
 
+.button1b{
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    background-color: #8E9B90;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    color: #D4CDAB;
+}
+
 .button2{
     position: absolute;
     bottom: 10px;
@@ -54,6 +68,52 @@
     border-radius: 30px;
     color: #8E9B90;
 }
+
+.button3{
+    position: absolute;
+    top: 10px;
+    left: 1022px;
+    background-color: #D4CDAB;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    color: #8E9B90;
+}
+
+.button4{
+    position: absolute;
+    top: 10px;
+    left: 55px;
+    background-color: #D4CDAB;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    color: #8E9B90;
+}
+
+.button4b{
+    position: absolute;
+    top: 10px;
+    left: 55px;
+    background-color: #8E9B90;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    color: #D4CDAB;
+}
+
 
 /*Lines*/
 .hr{
@@ -91,4 +151,58 @@
     font-size: 15px;
     color: white;
     text-shadow: 3px 1px 0 #333,1px -1px 0 #333,-1px 1px 0 #333, -1px -1px 0 #333;
+}
+
+/*Margenes*/
+
+.margin1{
+    background-color: #DCE2BD;
+    border: black 3px solid;
+    position: absolute;
+    margin: 20px;
+    height: 290px;
+    width: 800px;
+    top: 280px;
+    left: 308px;
+}
+
+.css{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 100px;
+    bottom: 45px;
+}
+
+.html{
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    left: 340px;
+    bottom: 45px;
+}
+
+.js{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 580px;
+    bottom: 45px;
+}
+
+
+/*Textos*/
+
+.p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    color: white;
+    text-shadow: 1px 1px 0 #333,1px -1px 0 #333,-1px 1px 0 #333, -1px -1px 0 #333;
+}
+
+.pb{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    color: white;
+    text-shadow: 1px 1px 0 #333,1px -1px 0 #333,-1px 1px 0 #333, -1px -1px 0 #333;
 }
