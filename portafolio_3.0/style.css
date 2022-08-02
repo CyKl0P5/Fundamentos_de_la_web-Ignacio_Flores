@@ -69,6 +69,21 @@
     color: #8E9B90;
 }
 
+.button2b{
+    position: absolute;
+    bottom: 10px;
+    left: 650px;
+    background-color: #8E9B90;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    color: #D4CDAB;
+}
+
 .button3{
     position: absolute;
     top: 10px;
@@ -82,6 +97,21 @@
     border: none;
     border-radius: 30px;
     color: #8E9B90;
+}
+
+.button3b{
+    position: absolute;
+    top: 10px;
+    left: 1022px;
+    background-color: #8E9B90;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    color: #D4CDAB;
 }
 
 .button4{
@@ -103,6 +133,21 @@
     position: absolute;
     top: 10px;
     left: 55px;
+    background-color: #8E9B90;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    color: #D4CDAB;
+}
+
+.buttongit{
+    position: absolute;
+    left: 342px;
+    bottom: 180px;
     background-color: #8E9B90;
     padding: 15px 32px;
     text-align: center;
@@ -201,6 +246,35 @@
 }
 
 .pb{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    color: white;
+    text-shadow: 1px 1px 0 #333,1px -1px 0 #333,-1px 1px 0 #333, -1px -1px 0 #333;
+}
+
+.pt{
+    position: absolute;
+    left: 350px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    color: white;
+    text-shadow: 1px 1px 0 #333,1px -1px 0 #333,-1px 1px 0 #333, -1px -1px 0 #333;
+}
+
+.pt2{
+    position: absolute;
+    left: 356px;
+    bottom: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    color: white;
+    text-shadow: 1px 1px 0 #333,1px -1px 0 #333,-1px 1px 0 #333, -1px -1px 0 #333;
+}
+
+.pd{
+    position: absolute;
+    left: 238px;
+    bottom: 80px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 17px;
     color: white;
