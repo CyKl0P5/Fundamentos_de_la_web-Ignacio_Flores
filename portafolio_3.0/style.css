@@ -219,6 +219,14 @@
     bottom: 45px;
 }
 
+.css2{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    left: 120px;
+    bottom: 112px;
+}
+
 .html{
     position: absolute;
     height: 110px;
@@ -227,12 +235,28 @@
     bottom: 45px;
 }
 
+.html2{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    left: 120px;
+    bottom: 212px;
+}
+
 .js{
     position: absolute;
     height: 100px;
     width: 100px;
     left: 580px;
     bottom: 45px;
+}
+
+.js2{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    left: 120px;
+    bottom: 12px;
 }
 
 
@@ -279,4 +303,102 @@
     font-size: 17px;
     color: white;
     text-shadow: 1px 1px 0 #333,1px -1px 0 #333,-1px 1px 0 #333, -1px -1px 0 #333;
+}
+
+/*Intento de Progress bar?*/
+
+.prg{
+    position: absolute;
+    left: 200px;
+    bottom: 230px;
+    background-color: #8E9B90;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    width: 100px;
+    color: #D4CDAB;
+}
+
+.prgb{
+    position: absolute;
+    left: 200px;
+    bottom: 230px;
+    background-color: #00ff4c;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    width: 85px;
+    color: #D4CDAB;
+}
+
+.prg2{
+    position: absolute;
+    left: 200px;
+    bottom: 130px;
+    background-color: #8E9B90;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    width: 100px;
+    color: #D4CDAB;
+}
+
+.prg2b{
+    position: absolute;
+    left: 200px;
+    bottom: 130px;
+    background-color: #00ff4c;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    width: 90px;
+    color: #D4CDAB;
+}
+
+.prg3{
+    position: absolute;
+    left: 200px;
+    bottom: 30px;
+    background-color: #8E9B90;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    width: 100px;
+    color: #D4CDAB;
+}
+
+.prg3b{
+    position: absolute;
+    left: 200px;
+    bottom: 30px;
+    background-color: #00ff4c;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    width: 1px;
+    color: #D4CDAB;
 }
