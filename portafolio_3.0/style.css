@@ -223,7 +223,7 @@
     position: absolute;
     height: 70px;
     width: 70px;
-    left: 120px;
+    left: 200px;
     bottom: 112px;
 }
 
@@ -239,7 +239,7 @@
     position: absolute;
     height: 70px;
     width: 70px;
-    left: 120px;
+    left: 200px;
     bottom: 212px;
 }
 
@@ -255,7 +255,7 @@
     position: absolute;
     height: 70px;
     width: 70px;
-    left: 120px;
+    left: 200px;
     bottom: 12px;
 }
 
@@ -305,11 +305,31 @@
     text-shadow: 1px 1px 0 #333,1px -1px 0 #333,-1px 1px 0 #333, -1px -1px 0 #333;
 }
 
+.pbt{
+        position: absolute;
+        left: 300px;
+        bottom: 150px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 17px;
+        color: white;
+        text-shadow: 1px 1px 0 #333,1px -1px 0 #333,-1px 1px 0 #333, -1px -1px 0 #333;
+}
+
+.pdt{
+        position: absolute;
+        left: 121px;
+        bottom: 290px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 17px;
+        color: white;
+        text-shadow: 1px 1px 0 #333,1px -1px 0 #333,-1px 1px 0 #333, -1px -1px 0 #333;
+}
+
 /*Intento de Progress bar?*/
 
 .prg{
     position: absolute;
-    left: 200px;
+    left: 350px;
     bottom: 230px;
     background-color: #8E9B90;
     padding: 15px 32px;
@@ -325,7 +345,7 @@
 
 .prgb{
     position: absolute;
-    left: 200px;
+    left: 300px;
     bottom: 230px;
     background-color: #00ff4c;
     padding: 15px 32px;
@@ -341,7 +361,7 @@
 
 .prg2{
     position: absolute;
-    left: 200px;
+    left: 350px;
     bottom: 130px;
     background-color: #8E9B90;
     padding: 15px 32px;
@@ -357,7 +377,7 @@
 
 .prg2b{
     position: absolute;
-    left: 200px;
+    left: 301px;
     bottom: 130px;
     background-color: #00ff4c;
     padding: 15px 32px;
@@ -373,7 +393,7 @@
 
 .prg3{
     position: absolute;
-    left: 200px;
+    left: 300px;
     bottom: 30px;
     background-color: #8E9B90;
     padding: 15px 32px;
@@ -383,13 +403,13 @@
     font-size: 20px;
     border: none;
     border-radius: 30px;
-    width: 100px;
+    width: 150px;
     color: #D4CDAB;
 }
 
 .prg3b{
     position: absolute;
-    left: 200px;
+    left: 300px;
     bottom: 30px;
     background-color: #00ff4c;
     padding: 15px 32px;
