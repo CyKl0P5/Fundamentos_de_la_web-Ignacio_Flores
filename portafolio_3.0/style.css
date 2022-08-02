@@ -60,15 +60,17 @@
     position: absolute;
     background-color: #DCE2BD;
     height: 80px;
-    width: 1480px;
+    width: 1474px;
+    border: 2px solid black;
 }
 
 .dw{
     position: absolute;
     background-color: #DCE2BD;
     height: 80px;
-    width: 1480px;
+    width: 1474px;
     top: 660px;
+    border: 2px solid black;
 }
 
 .trazo{
@@ -77,6 +79,16 @@
     left: 633px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
+    color: white;
+    text-shadow: 3px 1px 0 #333,1px -1px 0 #333,-1px 1px 0 #333, -1px -1px 0 #333;
+}
+
+.trazo2{
+    position: absolute;
+    top: 230px;
+    left: 655px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
     color: white;
     text-shadow: 3px 1px 0 #333,1px -1px 0 #333,-1px 1px 0 #333, -1px -1px 0 #333;
 }
