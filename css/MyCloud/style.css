@@ -1,0 +1,30 @@
+.bgt1{
+    background-color: black;
+}
+
+.text1{
+    text-align: left;
+    color: white;
+}
+
+.bgt2{
+    background-color: rgb(132, 33, 132);
+}
+
+.text2{
+    font-family: sans-serif;
+    font-style: oblique;
+    size: 10px;
+    text-align: center;
+    color: white;
+}
+
+.bgt3{
+    background-color: rgb(127, 202, 255);
+    text-align: right;
+}
+
+.textC{
+    text-align: left;
+    color: cyan;
+}
