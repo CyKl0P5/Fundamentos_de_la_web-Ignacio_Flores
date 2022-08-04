@@ -2,13 +2,10 @@
     width: 950px;
     background-color: silver;
     margin: 0px auto;
+    padding: 2%;
 }
 
 .top-nav {
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-bottom: 15px;
-    margin-right: 15px;
     height: 150px;
     background-color: green;
 }
@@ -16,13 +13,12 @@
 .side-nav {
     height: 300px;
     width: 200px;
-    margin-top: 15px;
-    margin-left: 15px;
+    display: inline-block;
+    margin-top: 20px;
     background-color: blue;
 }
 
 .main {
-    margin-left: 215px;
     height: 400px;
     width: 700px;
     display: inline-block;
@@ -33,9 +29,8 @@
 .sub-content {
     vertical-align: auto;
     height: 200px;
-    width: 210px;
-    margin-left: 13px;
-    margin-bottom: 30px;
+    width: 200px;
+    margin: 2%;
     display: inline-block;
     background-color: yellow;
 }
@@ -43,7 +38,7 @@
 #advertisement {
     height: 120px;
     width: 660px;
-    margin-left: 13px;
-    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
     background-color: purple;
 }
