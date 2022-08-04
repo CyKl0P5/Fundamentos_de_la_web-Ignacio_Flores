@@ -5,13 +5,19 @@
 }
 
 .top-nav {
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
     height: 150px;
+    width: 1000;
     background-color: green;
 }
 
 .side-nav {
     height: 300px;
     width: 200px;
+    margin-top: 15px;
+    margin-left: 15px;
     background-color: blue;
 }
 
@@ -24,11 +30,13 @@
 .sub-content {
     height: 200px;
     width: 210px;
+    margin-left: 20px;
     background-color: yellow;
 }
 
 #advertisement {
     height: 120px;
     width: 660px;
+    margin-left: 20px;
     background-color: purple;
 }
