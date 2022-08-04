@@ -1,0 +1,424 @@
+/*Background*/
+
+.background{
+    position: absolute;
+    background-color: #93C0A4;
+    height: fit-content;
+    width: fit-content;
+}
+
+
+
+
+
+/*Image*/
+
+.img{
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    left: 635px;
+    top: 10px;
+    border: 4px solid black;
+}
+
+/*Buttons*/
+
+.button1{
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    background-color: #D4CDAB;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    color: #8E9B90;
+}
+
+.button1b{
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    background-color: #8E9B90;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    color: #D4CDAB;
+}
+
+.button2{
+    position: absolute;
+    bottom: 10px;
+    left: 650px;
+    background-color: #D4CDAB;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    color: #8E9B90;
+}
+
+.button2b{
+    position: absolute;
+    bottom: 10px;
+    left: 650px;
+    background-color: #8E9B90;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    color: #D4CDAB;
+}
+
+.button3{
+    position: absolute;
+    top: 10px;
+    left: 1022px;
+    background-color: #D4CDAB;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    color: #8E9B90;
+}
+
+.button3b{
+    position: absolute;
+    top: 10px;
+    left: 1022px;
+    background-color: #8E9B90;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    color: #D4CDAB;
+}
+
+.button4{
+    position: absolute;
+    top: 10px;
+    left: 55px;
+    background-color: #D4CDAB;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    color: #8E9B90;
+}
+
+.button4b{
+    position: absolute;
+    top: 10px;
+    left: 55px;
+    background-color: #8E9B90;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    color: #D4CDAB;
+}
+
+.buttongit{
+    position: absolute;
+    left: 342px;
+    bottom: 180px;
+    background-color: #8E9B90;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    color: #D4CDAB;
+}
+
+
+/*Lines*/
+.hr{
+    position: absolute;
+    background-color: #DCE2BD;
+    height: 80px;
+    width: 1474px;
+    border: 2px solid black;
+}
+
+.dw{
+    position: absolute;
+    background-color: #DCE2BD;
+    height: 80px;
+    width: 1474px;
+    top: 660px;
+    border: 2px solid black;
+}
+
+.trazo{
+    position: absolute;
+    top: 200px;
+    left: 633px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: white;
+    text-shadow: 3px 1px 0 #333,1px -1px 0 #333,-1px 1px 0 #333, -1px -1px 0 #333;
+}
+
+.trazo2{
+    position: absolute;
+    top: 230px;
+    left: 655px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: white;
+    text-shadow: 3px 1px 0 #333,1px -1px 0 #333,-1px 1px 0 #333, -1px -1px 0 #333;
+}
+
+/*Margenes*/
+
+.margin1{
+    background-color: #DCE2BD;
+    border: black 3px solid;
+    position: absolute;
+    margin: 20px;
+    height: 290px;
+    width: 800px;
+    top: 280px;
+    left: 308px;
+}
+
+.css{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 100px;
+    bottom: 45px;
+}
+
+.css2{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    left: 200px;
+    bottom: 112px;
+}
+
+.html{
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    left: 340px;
+    bottom: 45px;
+}
+
+.html2{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    left: 200px;
+    bottom: 212px;
+}
+
+.js{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 580px;
+    bottom: 45px;
+}
+
+.js2{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    left: 200px;
+    bottom: 12px;
+}
+
+
+/*Textos*/
+
+.p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    color: white;
+    text-shadow: 1px 1px 0 #333,1px -1px 0 #333,-1px 1px 0 #333, -1px -1px 0 #333;
+}
+
+.pb{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    color: white;
+    text-shadow: 1px 1px 0 #333,1px -1px 0 #333,-1px 1px 0 #333, -1px -1px 0 #333;
+}
+
+.pt{
+    position: absolute;
+    left: 350px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    color: white;
+    text-shadow: 1px 1px 0 #333,1px -1px 0 #333,-1px 1px 0 #333, -1px -1px 0 #333;
+}
+
+.pt2{
+    position: absolute;
+    left: 356px;
+    bottom: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    color: white;
+    text-shadow: 1px 1px 0 #333,1px -1px 0 #333,-1px 1px 0 #333, -1px -1px 0 #333;
+}
+
+.pd{
+    position: absolute;
+    left: 238px;
+    bottom: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    color: white;
+    text-shadow: 1px 1px 0 #333,1px -1px 0 #333,-1px 1px 0 #333, -1px -1px 0 #333;
+}
+
+.pbt{
+        position: absolute;
+        left: 300px;
+        bottom: 150px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 17px;
+        color: white;
+        text-shadow: 1px 1px 0 #333,1px -1px 0 #333,-1px 1px 0 #333, -1px -1px 0 #333;
+}
+
+.pdt{
+        position: absolute;
+        left: 121px;
+        bottom: 290px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 17px;
+        color: white;
+        text-shadow: 1px 1px 0 #333,1px -1px 0 #333,-1px 1px 0 #333, -1px -1px 0 #333;
+}
+
+/*Intento de Progress bar?*/
+
+.prg{
+    position: absolute;
+    left: 350px;
+    bottom: 230px;
+    background-color: #8E9B90;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    width: 100px;
+    color: #D4CDAB;
+}
+
+.prgb{
+    position: absolute;
+    left: 300px;
+    bottom: 230px;
+    background-color: #00ff4c;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    width: 85px;
+    color: #D4CDAB;
+}
+
+.prg2{
+    position: absolute;
+    left: 350px;
+    bottom: 130px;
+    background-color: #8E9B90;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    width: 100px;
+    color: #D4CDAB;
+}
+
+.prg2b{
+    position: absolute;
+    left: 301px;
+    bottom: 130px;
+    background-color: #00ff4c;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    width: 90px;
+    color: #D4CDAB;
+}
+
+.prg3{
+    position: absolute;
+    left: 300px;
+    bottom: 30px;
+    background-color: #8E9B90;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    width: 150px;
+    color: #D4CDAB;
+}
+
+.prg3b{
+    position: absolute;
+    left: 300px;
+    bottom: 30px;
+    background-color: #00ff4c;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    width: 1px;
+    color: #D4CDAB;
+}
