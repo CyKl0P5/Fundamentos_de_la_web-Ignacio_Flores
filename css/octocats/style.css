@@ -1,0 +1,87 @@
+.bl1{
+    background-color: aquamarine;
+    width: 1900px;
+    border: 3px solid black;
+}
+
+
+
+.bl2{
+    position: absolute;
+    bottom: 350px;
+    left: 460px;
+    background-color: bisque;
+    width: 1000px;
+    border: 3px solid black;
+}
+
+
+.bl3{
+    position: absolute;
+    width: 1900px;
+    bottom: 50px;
+    background-color: brown;
+    border: 3px solid black;
+}
+
+
+
+.txt{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.img1{ 
+    margin: 10px;
+    padding: 1px;
+}
+
+
+.img2{
+    position: absolute;
+    right: 850px;
+    margin: 10px;
+    padding: 1px;
+}
+
+
+.img3{
+    position: absolute;
+    right: 10px;
+    margin: 10px;
+    padding: 1px;
+}
+
+
+.img4{
+    margin: 10px;
+    padding: 1px;
+}
+
+
+.img5{
+    position: absolute;
+    right: 10px;
+    margin: 10px;
+    padding: 1px;
+}
+
+.img6{
+    margin: 10px;
+    padding: 1px;
+}
+
+.img7{
+    position: absolute;
+    right: 10px;
+    margin: 10px;
+    padding: 1px;
+}
+
+.img8{
+    position: absolute;
+    right: 850px;
+    margin: 10px;
+    padding: 1px;
+}
