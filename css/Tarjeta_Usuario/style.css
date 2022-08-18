@@ -17,7 +17,7 @@ body{
 }
 .content-1{
     flex: 1;
-    background-color: skyblue;
+    background-color: rgb(39, 140, 222);
 }
 .content-2{
     flex: 3;
