@@ -44,3 +44,101 @@
     font-family: Claydesdale-Light;
     font-size: 100px;
 }
+
+.active1 {
+    margin-left: 0%;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px solid #74d6dd;
+    color: rgb(255, 255, 255);
+    font-family: Claydesdale-Light;
+    font-size: 100px;
+}
+
+.active {
+    display: flex;
+    justify-items: center;
+}
+
+.nav-links {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 8%;
+    width: 700px;
+    height: 100px;
+}
+
+.box-content h1 {
+    color: rgb(255, 255, 255);
+    font-family: Claydesdale-Light;
+    font-size: 280px;
+}
+
+.box-content p {
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 77px;
+    width: 9000px;
+}
+
+.box {
+    color: rgb(255, 255, 255);
+    margin: 30px;
+    width: 920px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid;
+    font-family: inherit;
+    font-size: 100px;
+    background-color: #1572a4;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-content {
+    margin-left: 18%;
+    margin-top: 18%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+}
+
+.banner2 {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-content {
+    width: 100%;
+    height: 100%;
+}
+
+.img-banner2 {
+    width: 1540px;
+    height: 68%;
+    margin-top: 18%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-content-img {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-b2 {
+    margin: 90px;
+}
