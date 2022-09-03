@@ -5,12 +5,11 @@
 
 
 .img1{
-    position: absolute;
-    top: 1px;
+    display: inline;
 }
 
 .img2{
-    flex: 1;
+    display: flex;
 }
 
 .img3{
