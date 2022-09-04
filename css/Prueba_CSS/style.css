@@ -214,9 +214,34 @@
 }
 
 .banner4 {
-    background-image: url(images/halonieve.jfif);
+    background-image: url(images/haloground.jfif);
     background-size: cover;
     background-repeat:no-repeat;
-    width: 000%;
-    height: 1000%;
+    display: inline-flex;
+    width: 1550px;
+    height: 430px;
+    margin-top: 0%;
+    position: absolute;
+    top: 173%;
+}
+
+.img-1-banner-4 {
+    margin-right: 100%;
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-b4 {
+    width: 650px;
+    height: 350px;
+    margin-top: 3%;
+    margin-left: 11%;
+    margin-bottom: 50px;
+}
+
+.text-banner4 h1 {
+    color: #1572a4;
 }
