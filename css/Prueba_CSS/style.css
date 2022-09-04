@@ -218,7 +218,7 @@
     background-size: cover;
     background-repeat:no-repeat;
     display: inline-flex;
-    width: 1550px;
+    width: 1478px;
     height: 430px;
     margin-top: 0%;
     position: absolute;
@@ -244,4 +244,131 @@
 
 .text-banner4 h1 {
     color: #1572a4;
+}
+
+
+
+
+
+/*Spartan and bellow*/
+
+.content {
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 40vh 32% 34% 34%;
+    grid-template-rows: 10% 80% 10%;
+}
+
+.inputs {
+    display: flex;
+}
+
+.c-text {
+    font-family: Clydesdale-Light;
+    margin-top: 10%;
+    width: 100%;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.c-text h1 {
+    font-family: Clydesdale-Light;
+    color: #98D1EF;
+    font-size: 4.5vh;
+}
+
+.c-text h2 {
+    font-family: inherit;
+    font-family: ewe;
+    font-size: medium;
+}
+
+.c-text p {
+    font-family: Clydesdale-Light;
+    font-size: 2vh;
+}
+
+.content-2 {
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 40vh 32% 34% 34%;
+    grid-template-rows: 10% 80% 10%;
+}
+
+.inputs {
+    display: flex;
+}
+
+.c-2-text {
+    margin-top: 10%;
+    width: 100%;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.c-2-text h1 {
+    color: #98D1EF;
+    font-size: 4.5vh;
+}
+
+.c-2-text h2 {
+    font-family: Clydesdale-Light;
+    font-size: medium;
+}
+
+.c-2-text p {
+    font-family: sans-serif;
+    font-size: 2vh;
+}
+
+#container-3 {
+    width: 100%;
+    height: 50vh;
+    background-image: url(images/haloground.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    margin-top: -34%;
+}
+
+#container-4 {
+    width: 100%;
+    height: 60vh;
+}
+
+.c-img {
+    margin-left: 3%;
+    width: 90%;
+    align-self: center;
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.xob-3 {
+    margin-top: 1.2vh;
+    width: 30.4vh;
+    height: 5vh;
+    top: 50px;
+    border: transparent;
+    border-radius: 0%;
+    background-color: #1472A5;
+    color: #fff;
+    font-size: 25px;
+    font-family: Clydesdale-Light;
+}
+
+.xob-4 {
+    margin-top: 1.2vh;
+    margin-left: 2vh;
+    width: 35vh;
+    height: 5vh;
+    top: 50px;
+    border: transparent;
+    border-radius: 0%;
+    background-color: #1472A5;
+    color: #fff;
+    font-size: 25px;
+    font-family: Clydesdale-Light;
 }
