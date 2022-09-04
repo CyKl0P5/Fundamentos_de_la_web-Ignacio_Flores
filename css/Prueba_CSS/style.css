@@ -1,12 +1,12 @@
 * {
     margin: 0%;
     padding: 0%;
-    font-family: Claydesdale-Light;
+    font-family: Clydesdale-Light;
     font-size: x-large;
 }
 
 @font-face {
-    font-family: Claydesdale-Light;
+    font-family: Clydesdale-Light;
     src: url(Clydesdale-Light.ttf);
 }
 
@@ -17,7 +17,7 @@
 }
 
 .header {
-    background-image: url(banner.jpg);
+    background-image: url(images/banner.jpg);
     background-size: cover;
     background-repeat:no-repeat;
     height: 100%;
@@ -41,7 +41,7 @@
     height: 100%;
     width: 100%;
     color: rgb(255, 255, 255);
-    font-family: Claydesdale-Light;
+    font-family: Clydesdale-Light;
     font-size: 100px;
 }
 
@@ -50,7 +50,7 @@
     background-color: rgba(0, 0, 0, 0);
     border: 0px solid #74d6dd;
     color: rgb(255, 255, 255);
-    font-family: Claydesdale-Light;
+    font-family: Clydesdale-Light;
     font-size: 100px;
 }
 
@@ -74,7 +74,7 @@
 
 .box-content h1 {
     color: rgb(255, 255, 255);
-    font-family: Claydesdale-Light;
+    font-family: Clydesdale-Light;
     font-size: 280px;
 }
 
@@ -141,4 +141,59 @@
 
 .box-b2 {
     margin: 90px;
+}
+
+.img-b3 {
+    width: 2500px;
+    height: 1500px;
+    margin-top: 1%;
+    margin-left: 20%;
+    margin-bottom: 50%;
+}
+
+.banner3 {
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.text-banner3 {
+    margin-top: 2%;
+    margin-left: 3%;
+    height: 1000px;
+    width: 4000px;
+    color: rgb(255, 255, 255);
+    font-family: Clydesdale-Light;    
+}
+
+.img-2-banner-3 {
+    margin-right: 100%;
+    width: 100%;
+    height: 100%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-banner3 h1 {
+    color: #1572a4;
+}
+
+.text-banner3 h3 {
+    color: #3c4b53;
+    font-family:monospace;
+}
+
+.text-banner3 p {
+    margin-top: 3%;
+    color: #3c4b53;
+    font-family:Arial
+}
+
+.banner4 {
+    background-image: url(images/haloground.jfif);
+    background-size: cover;
+    background-repeat:no-repeat;
+    width: 000px;
+    height: 1000px;
 }
