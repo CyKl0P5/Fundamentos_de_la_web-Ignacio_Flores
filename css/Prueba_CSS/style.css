@@ -1,0 +1,375 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Clydesdale-Light;
+    font-size: x-large;
+}
+
+@font-face {
+    font-family: Clydesdale-Light;
+    src: url(Clydesdale-Light.ttf);
+}
+
+.lupa {
+    background-color: rgba(44, 32, 32, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.nav {
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.active2 {
+    margin-right: 8%;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px solid;
+    height: 100%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-family: Clydesdale-Light;
+    font-size: 100%;
+}
+
+.active1 {
+    margin-left: 0%;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px solid #74d6dd;
+    color: rgb(255, 255, 255);
+    font-family: Clydesdale-Light;
+    font-size: 100%;
+}
+
+.active {
+    display: flex;
+    justify-items: center;
+}
+
+.nav-links {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.nav-links2 {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+}
+
+.logo {
+    margin-right: 8%;
+    width: 700%;
+    height: 100%;
+}
+
+.box-content h1 {
+    color: rgb(255, 255, 255);
+    font-family: Clydesdale-Light;
+    font-size: 280%;
+}
+
+.box-content p {
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 77%;
+    width: 9000%;
+}
+
+.box {
+    color: rgb(255, 255, 255);
+    margin: 30px;
+    width: 920%;
+    height: 200%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid;
+    font-family: inherit;
+    font-size: 100%;
+    background-color: #1572a4;
+}
+
+.box2 {
+    color: #ffffff;
+    margin: 5%;
+    margin-top: 0.1%;
+    margin-left: 1%;
+    width: 210px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid;
+    font-family: Clydesdale-Light;
+    font-size: 170%;
+    background-color: #1572a4;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-content {
+    margin-left: 18%;
+    margin-top: 18%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+}
+
+.banner2 {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-content {
+    width: 100%;
+    height: 100%;
+}
+
+.img-banner2 {
+    width: 343px;
+    height: 200px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-content-img {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-b2 {
+    margin: 30px;
+}
+
+.img-b3 {
+    width: 650px;
+    height: 350px;
+    margin-top: 4%;
+    margin-left: 11%;
+    margin-bottom: 50px;
+}
+
+.banner3 {
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.text-banner3 {
+    margin-top: 2%;
+    margin-left: 3%;
+    height: 920px;
+    width: 665px;
+    color: rgb(255, 255, 255);
+    font-family: Clydesdale-Light;    
+}
+
+.img-2-banner-3 {
+    margin-right: 100%;
+    width: 100%;
+    height: 100%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-banner3 h1 {
+    color: #1572a4;
+}
+
+.text-banner3 h3 {
+    color: #3c4b53;
+    font-family:monospace;
+}
+
+.text-banner3 p {
+    margin-top: 3%;
+    color: #3c4b53;
+    font-family:Arial
+}
+
+.banner4 {
+    background-image: url(images/haloground.jfif);
+    background-size: cover;
+    background-repeat:no-repeat;
+    display: inline-flex;
+    width: 1478px;
+    height: 430px;
+    margin-top: 0%;
+    position: absolute;
+    top: 173%;
+}
+
+.img-1-banner-4 {
+    margin-right: 100%;
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-b4 {
+    width: 650px;
+    height: 350px;
+    margin-top: 3%;
+    margin-left: 11%;
+    margin-bottom: 50px;
+}
+
+.text-banner4 h1 {
+    color: #1572a4;
+}
+
+
+
+
+
+/*Spartan and bellow*/
+
+.content {
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 40vh 32% 34% 34%;
+    grid-template-rows: 10% 80% 10%;
+}
+
+.inputs {
+    display: flex;
+}
+
+.c-text {
+    font-family: Clydesdale-Light;
+    margin-top: 10%;
+    width: 100%;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.c-text h1 {
+    font-family: Clydesdale-Light;
+    color: #98D1EF;
+    font-size: 4.5vh;
+}
+
+.c-text h2 {
+    font-family: inherit;
+    font-family: ewe;
+    font-size: medium;
+}
+
+.c-text p {
+    font-family: Clydesdale-Light;
+    font-size: 2vh;
+}
+
+.content-2 {
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 40vh 32% 34% 34%;
+    grid-template-rows: 10% 80% 10%;
+}
+
+.inputs {
+    display: flex;
+}
+
+.c-2-text {
+    margin-top: 10%;
+    width: 100%;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.c-2-text h1 {
+    color: #98D1EF;
+    font-size: 4.5vh;
+}
+
+.c-2-text h2 {
+    font-family: Clydesdale-Light;
+    font-size: medium;
+}
+
+.c-2-text p {
+    font-family: sans-serif;
+    font-size: 2vh;
+}
+
+#container-3 {
+    width: 100%;
+    height: 50vh;
+    background-image: url(images/haloground.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    margin-top: -34%;
+}
+
+#container-4 {
+    width: 100%;
+    height: 60vh;
+}
+
+.c-img {
+    margin-left: 3%;
+    width: 90%;
+    align-self: center;
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.xob-3 {
+    margin-top: 1.2vh;
+    width: 30.4vh;
+    height: 5vh;
+    top: 50px;
+    border: transparent;
+    border-radius: 0%;
+    background-color: #1472A5;
+    color: #fff;
+    font-size: 25px;
+    font-family: Clydesdale-Light;
+}
+
+.xob-4 {
+    margin-top: 1.2vh;
+    margin-left: 2vh;
+    width: 35vh;
+    height: 5vh;
+    top: 50px;
+    border: transparent;
+    border-radius: 0%;
+    background-color: #1472A5;
+    color: #fff;
+    font-size: 25px;
+    font-family: Clydesdale-Light;
+}
