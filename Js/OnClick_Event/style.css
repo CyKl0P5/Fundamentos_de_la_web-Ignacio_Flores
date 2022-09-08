@@ -47,5 +47,34 @@
 }
 
 .box-left{
-    
+    display: flex;
+    margin: 4%;
+    width: 23%;
+    margin-left: 32%;
+    border: 3px solid black;
+}
+
+.box-l-text1{
+    font-family: eee;
+    margin-left: 5%;
+}
+
+.box-1-text2{
+    font-family: eee;
+    margin: 20%;
+}
+
+
+.box-right{
+    display: flex;
+    margin: 4%;
+    margin-left: 56%;
+    width: 14%;
+    margin-top: -17.3%;
+    border: 3px solid black;
+}
+
+.box-2-text-1{
+    font-family: eee;
+    font-size: 80%;
 }
