@@ -1,0 +1,51 @@
+
+@font-face {
+    font-family: eee;
+    src: url(font/comic.ttf);
+}
+
+.dojonary{
+    display: flex;
+    background-color: rgb(215, 215, 215);
+    margin: 1%;
+    width: 39%;
+    margin-left: 32%;
+}
+
+.boxtext1{
+    display: flex;
+    margin-left: 2%;
+    font-family: eee;
+    font-size: 80%;
+}
+
+.input1{
+    display: flex;
+    margin: 3%;
+    margin-left: 20%;
+    border: 2px solid black;
+}
+
+
+.buttonbox1{
+    margin-top: 2%;
+    margin: 2.7%;
+    margin-left: 14%;
+}
+
+.button1{
+    font-family: eee;
+    background-color: cornflowerblue;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.box-left{
+    
+}
