@@ -33,6 +33,7 @@
     margin-left: 14%;
 }
 
+
 .button1{
     font-family: eee;
     background-color: cornflowerblue;
@@ -44,6 +45,20 @@
     border: none;
     border-radius: 5px;
     color: white;
+}
+
+.button2{
+    font-family: eee;
+    background-color: rgb(123, 188, 27);
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    width: 150%;
 }
 
 .box-left{
@@ -61,20 +76,38 @@
 
 .box-1-text2{
     font-family: eee;
-    margin: 20%;
+    margin: 6%;
+    margin-left: 1%;
+    margin-top: 15%; 
 }
 
-
-.box-right{
-    display: flex;
-    margin: 4%;
-    margin-left: 56%;
-    width: 14%;
-    margin-top: -17.3%;
-    border: 3px solid black;
+right_column {
+    /*border: 2px solid cyan;*/
+    margin-top: 10px;
+    height: 300px;
 }
 
-.box-2-text-1{
+.dojo {
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.dojo p {
     font-family: eee;
-    font-size: 80%;
+}
+
+.dojo p strong {
+    font-weight: bold;
+}
+.button_add {
+    color: black;
+    background-color: #93c47d;
+    border: 2px solid black;
+    margin: 4px;
+    padding: 4px 25px;
+    -webkit-box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 1);
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 1);
+    font-weight: bold;
 }
