@@ -104,8 +104,8 @@
 }
 
 .rightbox{
-    border: 3px solid black;
     display: flex;
+    border: 3px solid black;
     margin-left: 58%;
     margin-top: -25.7%;
     width: 18%;
@@ -114,10 +114,10 @@
 }
 
 .rbox-text1{
-    display: flex;
-    margin-right: 1%;
+    margin-left: 15%;
     font-family: eee;
     font-size: 78%;
+    margin-bottom: 3%;
 }
 
 .button2{
@@ -135,6 +135,7 @@
 
 .buttonbox2{
     margin-right: 30%;
-    margin-top: 33%;
+    margin-top: 48%;
+    margin-bottom: 3%;
 }
 
