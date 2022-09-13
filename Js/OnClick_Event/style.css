@@ -81,33 +81,41 @@
     margin-top: 15%; 
 }
 
-right_column {
-    /*border: 2px solid cyan;*/
-    margin-top: 10px;
-    height: 300px;
+.box-left2{
+    display: flex;
+    margin: 4%;
+    width: 23%;
+    margin-left: 32%;
+    border: 3px solid black;
 }
 
-.dojo {
-    border: 2px solid black;
-    margin-top: 10px;
-    padding: 10px;
-}
-
-.dojo p {
+.boxtext1b{
+    display: flex;
+    margin-left: 2%;
     font-family: eee;
+    font-size: 80%;
 }
 
-.dojo p strong {
-    font-weight: bold;
+.box-1-text2b{
+    font-family: eee;
+    margin: 6%;
+    margin-left: 1%;
+    margin-top: 15%; 
 }
-.button_add {
-    color: black;
-    background-color: #93c47d;
-    border: 2px solid black;
-    margin: 4px;
-    padding: 4px 25px;
-    -webkit-box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 1);
-    -moz-box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 1);
-    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 1);
-    font-weight: bold;
+
+.rightbox{
+    border: 3px solid black;
+    display: flex;
+    margin-left: 58%;
+    margin-top: -25.7%;
+    width: 18%;
+    font-family: eee;
+    font-size: 80%;
+}
+
+.rbox-text1{
+    display: flex;
+    margin-right: 2%;
+    font-family: eee;
+    font-size: 80%;
 }
