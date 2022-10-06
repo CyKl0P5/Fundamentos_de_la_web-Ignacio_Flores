@@ -34,6 +34,10 @@
     margin-bottom: -15.5%;
 }
 
+.buttonbox2{
+    margin: 1%;
+margin-top: -5%;
+}
 
 .upnav{
     background-color: black;
@@ -73,6 +77,16 @@
     margin-left: 80%;
 }
 
+.button2{
+    background-color: #FFD966;
+    text-decoration: none;
+    border: 3px solid black;
+    color: black;
+    font-family: eee;
+    text-align: center;
+    margin: 2%;
+    margin-left: 80%;
+}
 
 
 /*Texts*/
