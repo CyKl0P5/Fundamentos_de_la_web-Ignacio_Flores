@@ -1,140 +1,79 @@
-
-@font-face {
-    font-family: eee;
-    src: url(font/comic.ttf);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
 }
-
-.dojonary{
-    display: flex;
-    background-color: rgb(215, 215, 215);
-    margin: 1%;
-    width: 39%;
-    margin-left: 32%;
-}
-
-.boxtext1{
-    display: flex;
-    margin-left: 2%;
-    font-family: eee;
-    font-size: 80%;
-}
-
-.input1{
-    display: flex;
-    margin: 3%;
-    margin-left: 20%;
+.btn{
+    padding: 4px 8px;
+    margin: 4px 8px;
     border: 2px solid black;
+    box-shadow: 3px 3px 1px black;
+    cursor: pointer;
 }
-
-
-.buttonbox1{
-    margin-top: 2%;
-    margin: 2.7%;
-    margin-left: 14%;
-}
-
-
-.button1{
-    font-family: eee;
-    background-color: cornflowerblue;
-    padding: 5px 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    border: 2px solid black;
-    border-radius: 5px;
+.color-1{
     color: white;
+    background-color: #276ccd;
 }
-
-.button2{
-    font-family: eee;
-    background-color: rgb(123, 188, 27);
-    padding: 5px 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    border: none;
-    border-radius: 5px;
+.color-2{
     color: black;
-    width: 150%;
+    background-color: #ffd966;
 }
-
-.box-left{
-    display: flex;
-    margin: 4%;
-    width: 23%;
-    margin-left: 32%;
-    border: 3px solid black;
-}
-
-.box-l-text1{
-    font-family: eee;
-    margin-left: 5%;
-}
-
-.box-1-text2{
-    font-family: eee;
-    margin: 6%;
-    margin-left: 1%;
-    margin-top: 15%; 
-}
-
-.box-left2{
-    display: flex;
-    margin: 4%;
-    width: 23%;
-    margin-left: 32%;
-    border: 3px solid black;
-}
-
-.boxtext1b{
-    display: flex;
-    margin-left: 2%;
-    font-family: eee;
-    font-size: 80%;
-}
-
-.box-1-text2b{
-    font-family: eee;
-    margin: 6%;
-    margin-left: 1%;
-    margin-top: 15%; 
-}
-
-.rightbox{
-    display: flex;
-    border: 3px solid black;
-    margin-left: 58%;
-    margin-top: -25.7%;
-    width: 18%;
-    font-family: eee;
-    font-size: 80%;
-}
-
-.rbox-text1{
-    margin-left: 18%;
-    font-family: eee;
-    font-size: 78%;
-    margin-bottom: 3%;
-}
-
-.button2{
-    font-family: eee;
-    background-color: rgb(99, 255, 47);
-    padding: 5px 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    border: 2px solid black;
-    border-radius: 5px;
+.color-3{
     color: black;
+    background-color: #93c47d;
+}
+.cursiva{
+    font-style: italic;
+}
+.navbar{
+    width: 700px;
+    margin: 0 auto;
+    background-color: #c1c1c1;
 }
 
-.buttonbox2{
-    margin-right: 30%;
-    margin-top: 48%;
-    margin-bottom: 3%;
+.navbar-elements{
+    padding: 5px 30px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    margin-left: 30px;
+    font-size: 2rem;
+}
+.main{
+    width: 700px;
+    display: flex;
+    margin: 10px auto;
+    padding: 10px;
+}
+.col-1{
+    flex: 70%;
+}
+.col-2{
+    flex: 30%;
+}
+.card{
+    margin: 10px 20px;
+    border: 3px solid gray;
+    border-radius: 1px;
+    display: flex;
+    align-items: center;
+}
+.like-elements{
+    list-style-type: none;
+    width: 150px;
+    margin: 5px 10px;
+    padding: 5px;
+    text-align: center;
+}
+.adds{
+    margin: 10px 0px;
+    padding: 10px;
+    border: 3px solid gray;
+}
+.add-button{
+    text-align: center;
 }
