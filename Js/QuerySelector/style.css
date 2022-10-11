@@ -48,3 +48,10 @@
     margin-left: 40%;
     margin-top: 8%;
 }
+
+.usrbox{
+    border: 3px solid black;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
