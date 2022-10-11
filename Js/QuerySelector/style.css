@@ -26,7 +26,7 @@
     background-color: white;
     margin-left: 44%;
     margin-top: 3%;
-    margin-right: 25%;
+    margin-right: 25%; 
 }
 
 .buttonbox1{
@@ -36,7 +36,8 @@
 
 .buttonbox2{
     margin: 1%;
-margin-top: -5%;
+    margin-left: 79%;
+    display: flex;
 }
 
 .upnav{
@@ -84,8 +85,6 @@ margin-top: -5%;
     color: black;
     font-family: eee;
     text-align: center;
-    margin: 2%;
-    margin-left: 80%;
 }
 
 
