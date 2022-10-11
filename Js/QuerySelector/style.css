@@ -3,3 +3,34 @@
     src: url(font/comic.ttf);
 }
 
+.navup{
+    background-color: black;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 30%;
+    margin-bottom: 2%;
+}
+
+.navtext{
+    font-family: eee;
+    text-align: left;
+    color: white;
+    margin-left: 2%;
+}
+
+.navdw{
+    background-color: white;
+    text-align: center;
+    font-family: eee;
+    color: black;
+    margin-bottom: 1%;
+}
+
+/*BOXES*/
+.box1{
+    border: 3px solid black;
+    background-color: white;
+    margin-left: 30%;
+    margin-top: 2%;
+    
+}
